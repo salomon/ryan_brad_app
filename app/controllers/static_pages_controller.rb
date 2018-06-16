@@ -1,4 +1,4 @@
-class StaticPagesController < ActionController::Base
+class StaticPagesController < ApplicationController
   protect_from_forgery with: :exception
 
 	def about
